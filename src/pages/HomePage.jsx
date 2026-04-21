@@ -6,7 +6,7 @@ import {
   FaEnvelope,
   FaMapMarkerAlt,
 } from "react-icons/fa";
-import Anandha_Krishnan from "../assets/Anandha_Krishnan_PS.jpg";
+import Anandha_Krishnan from "../assets/Anandha_krishnan_PS.jpg";
 
 export default function HomePage({ fadeUp, links }) {
   return (
