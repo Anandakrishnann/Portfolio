@@ -1,3 +1,4 @@
+import React from "react";
 import { motion } from 'framer-motion';
 import { FaPython, FaReact } from 'react-icons/fa';
 import { SiDjango, SiFastapi } from 'react-icons/si';

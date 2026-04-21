@@ -1,3 +1,4 @@
+import React from "react";
 import { motion } from 'framer-motion';
 import codex from "../assets/codex.png";
 import fadex9 from "../assets/fadex9.png";
