@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@rolldown/binding-win32-x64-msvc": "^1.0.0-rc.16",
-    "vite": "^8.0.9"
+    "vite": "^5.4.21"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
