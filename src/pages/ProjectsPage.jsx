@@ -29,11 +29,15 @@ const projects = [
     description:
       'Full-stack role-based learning platform with JWT auth, live chat, video classes, payments, and progress tracking.',
     highlights: [
-      'Built scalable features for Admins, Tutors, and Learners.',
-      'Implemented secure JWT auth and protected routes.',
-      'Integrated live chat, video classes, Stripe, and PayPal.',
+      'Built a full-stack e-learning platform with role-based access for Admins, Tutors, and Learners.',
+      'Developed REST APIs and React components for courses, dashboards, enrollments, and progress tracking.',
+      'Implemented JWT authentication, secure authorization, and protected routes across the platform.',
+      'Integrated real-time chat using WebSockets and enabled live video classes via ZegoCloud.',
+      'Designed course management system with modules, lessons, and structured learning flow.',
+      'Implemented Stripe subscriptions, PayPal payments, and webhook-based payment automation.',
+      'Built meeting scheduling system with notifications and automated email workflows.',
     ],
-    tags: ['React', 'Django', 'WebSockets', 'Stripe', 'PayPal'],
+    tags: ['React', 'Django', 'DRF', 'WebSockets', 'Stripe', 'PayPal'],
     githubLinks: [
       { label: 'Frontend', url: 'https://github.com/Anandakrishnann/CodeX-Frontend.git' },
       { label: 'Backend', url: 'https://github.com/Anandakrishnann/CodeX-Backend.git' },
@@ -46,8 +50,10 @@ const projects = [
     description:
       'Backend services for an e-commerce platform with REST APIs for products, users, and orders with JWT authentication.',
     highlights: [
-      'Developed backend services using Django and DRF.',
-      'Designed REST APIs for products, users, and orders with JWT authentication.',
+      'Developed backend functionalities using Django for an e-commerce platform.',
+      'Designed and managed core modules for products, users, orders, and authentication.',
+      'Implemented secure user authentication using JWT.',
+      'Integrated Razorpay payment gateway for handling online transactions.',
       'Optimized queries and improved performance by 25%.',
       'Deployed backend on AWS EC2 using NGINX and Gunicorn.',
     ],
@@ -63,10 +69,13 @@ const projects = [
     description:
       'Hybrid AI + rules engine that analyzes API traffic and logs, with Redis-backed performance improvements.',
     highlights: [
-      'Designed hybrid debugging with rule engine and local LLM.',
+      'Built an AI-powered debugging tool that analyzes API requests, responses, and logs.',
+      'Designed a hybrid system using rule-based checks and a local LLM',
+      'Implemented background processing and Redis caching for performance optimization.',
       'Implemented background processing and Redis caching.',
+      'Developed file upload and structured log parsing system.',
     ],
-    tags: ['Django', 'LLM', 'Redis', 'Log Parsing'],
+    tags: ['FAST API', 'Python', 'Local LLM', 'Redis', 'Log Parsing'],
     githubLinks: [
       { label: 'GitHub', url: 'https://github.com/Anandakrishnann/TraceFix-AI.git' },
     ],
@@ -79,7 +88,7 @@ const projects = [
       'Production-ready Django deployment guide using EC2, NGINX, Gunicorn, S3, and RDS best practices.',
     highlights: [
       'Documented secure deployment architecture for production.',
-      'Included automation-friendly deployment workflow.',
+      'Designed a user-friendly interface with one-click command copy for faster execution.',
     ],
     tags: ['AWS', 'NGINX', 'Gunicorn', 'DevOps'],
     githubLinks: [],
