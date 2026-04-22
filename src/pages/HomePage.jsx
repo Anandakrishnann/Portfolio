@@ -8,6 +8,8 @@ import {
   FaMapMarkerAlt,
 } from "react-icons/fa";
 import Anandha_Krishnan from "../assets/Anandha_krishnan_PS.jpg";
+import { FaDownload } from "react-icons/fa";
+import Resume from "../assets/AnandhaKrishnanPS_Resume.pdf";
 
 export default function HomePage({ fadeUp, links }) {
   return (
@@ -56,6 +58,15 @@ export default function HomePage({ fadeUp, links }) {
             <FaLinkedin /> LinkedIn
           </a>
         </div>
+        <motion.div className="resume-container" variants={fadeUp}>
+          <a
+            href={Resume}
+            download="Anandha_Krishnan_Resume.pdf"
+            className="resume-btn"
+          >
+            <FaDownload /> Download Resume
+          </a>
+        </motion.div>
       </motion.div>
     </motion.header>
   );
